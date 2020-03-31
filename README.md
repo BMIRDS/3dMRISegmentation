@@ -20,4 +20,4 @@ Source code for *[Automatic Post-Stroke Lesion Segmentation on MR Images using 3
 
 
 # Citations
-PrepSlide is an open-source library and is licensed under the GNU General Public License (v3). For questions contact Saeed Hassanpour at Saeed.Hassanpour@dartmouth.edu.
+3dMRISegmentation is an open-source library and is licensed under the GNU General Public License (v3). For questions contact Saeed Hassanpour at Saeed.Hassanpour@dartmouth.edu.
