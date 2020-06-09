@@ -4,7 +4,7 @@ This is PyTorch implementation of Deep Residual 3D U-Net for MRI segmentation.
 This is also the source code for *[Automatic post-stroke lesion segmentation on MR images using 3D residual convolutional neural network](https://doi.org/10.1016/j.nicl.2020.102276)*
 
 
-![Visualization of Prediction Results](assets/fig2.jpeg)
+![Visualization of Prediction Results](assets/fig2.png)
 
 
 ## Highlights
@@ -12,7 +12,7 @@ This is also the source code for *[Automatic post-stroke lesion segmentation on 
 + Our novel zoom-in&out strategy increases performance and accelerates optimization.
 + High performance was achieved in both volumetric and surface-based metrics.
 
-![Zoom-in&out training strategy for volumetric segmentation](assets/graphical_abstract.jpeg)
+![Zoom-in&out training strategy for volumetric segmentation](assets/graphical_abstract.png)
 
 ## Zoom-in&out training strategy for efficient volumetric segmentation
 We used a two-stage zoom-in&out strategy to first train them on small volumes, and then we finetuned the models on larger volumes. Advantages are:
