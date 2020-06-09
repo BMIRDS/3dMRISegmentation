@@ -102,7 +102,11 @@ We used a two-stage zoom-in&out strategy to first train them on small volumes, a
 </table>
 Best scores are marked in bold.
 
-# Dependencies
+## Visualization of segmentation results
+![Visualization of segmentation results1](assets/video1.gif)
+![Visualization of segmentation results2](assets/video2.gif)
+
+## Dependencies
 - Python 3.6
 - [PyTorch 1.3](https://pytorch.org/)
 - [NiBabel](https://nipy.org/nibabel/)
@@ -110,7 +114,7 @@ Best scores are marked in bold.
 - [scikit-learn](https://scikit-learn.org/)
 
 
-# Usage
+## Usage
 ## Training a 3D segmentation model
 - `python train.py --data_dir <path_to_dataset> --save_dir <path_to_snapshots>`
 
@@ -135,4 +139,7 @@ Here are our suggestions for selecting an optimal volume size in Zoom-In&Out tra
 
 # Citations
 3dMRISegmentation is an open-source library and is licensed under the GNU General Public License (v3). 
+
+If you are using this library, please cite:
+
 ```Naofumi Tomita, Steven Jiang, Matthew E. Maeder, and Saeed Hassanpour. "Automatic Post-Stroke Lesion Segmentation on MR Images using 3D Residual Convolutional Neural Network." NeuroImage: Clinical (2020): 102276.```
